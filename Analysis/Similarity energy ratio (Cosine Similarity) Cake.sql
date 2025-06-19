@@ -6,5 +6,6 @@ SELECT *,
      SQRT(POW(0.4, 2) + POW(0.4, 2) + POW(0.2, 2)))
   ) AS cosine_similarity
 FROM aggr_food_by_energy_kcal
+WHERE food_category = 'Cake, Cookie & Cupcake Mixes'
 ORDER BY cosine_similarity DESC
 LIMIT 10;

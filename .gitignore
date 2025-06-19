@@ -1,0 +1,21 @@
+# JetBrains DataGrip
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Database credentials (if any exported)
+*.env
+*.dbconfig
+*.sql.gz
+
+# Ignore backups or dumps
+*.bak
+*.backup
+*.dump
